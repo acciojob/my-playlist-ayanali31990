@@ -44,12 +44,10 @@ a {
   border-radius: 5px;
 }
 
-.player_one video,
-.player_two audio {
-  width: 100%;
-}
-
-.player_two p {
-  margin: 10px 0 5px;
-  font-weight: bold;
+.player_one,
+.player_two {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px; /* optional, just for spacing */
 }
